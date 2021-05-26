@@ -7,6 +7,8 @@
 
 ' Nécessite l'ajout du composant MySQLData v6.9.12 au projet
 Imports MySql.Data.MySqlClient
+
+
 Public Class frmClient
 
     ' Object connexion à la base MySQL
@@ -17,8 +19,8 @@ Public Class frmClient
     Private Sub InitialiserConnexionBase()
         ' Chaîne de connexion à la base de donnéees
         Dim ChaineConnexion As String
-        ChaineConnexion = "server=localhost;user=root;database=tp5_client1;port=3306;password='';"
-        'ChaineConnexion = "server=172.18.153.50;user=user;database=bdd_client1;password='12-Soleil&';"
+        'ChaineConnexion = "server=localhost;user=root;database=tp5_client1;port=3306;password='';"
+        ChaineConnexion = "server=172.18.153.50;user=fred;database=client1_db;password='12-Soleil&';"
         ' Création de la connexion
         cnxClient1 = New MySqlConnection(ChaineConnexion)
 
@@ -37,16 +39,16 @@ Public Class frmClient
     ' Remplissage de la grille de données
     Private Sub RemplirGrilleCommande()
         ' Jeu d'enregistrement qui contiendra le résultat de la requête
-        Dim dtClient As New DataTable
+        Dim dtCmde As New DataTable
         ' Adaptateur SQL : l'objet sur lequel les commandes SQL seront lancées et dont le résultat sera mis dans un "DataTable"
-        Dim sdaClient As New MySqlDataAdapter
+        Dim sdaCmde As New MySqlDataAdapter
 
         ' Exécution de la requête sur la connexion
-        sdaClient.SelectCommand = New MySqlCommand("SELECT `NumCmde`,`DateCmde`,`NomClient`,`AdresseClient` FROM `commande` INNER Join client ON CLIENT.NumClient = commande.NumClient ORDER by commande.DateCmde desc;", cnxClient1)
+        sdaCmde.SelectCommand = New MySqlCommand("SELECT commande.*, NomClient FROM commande INNER Join client ON commande.NumClient = client.NumClient ORDER by commande.DateCmde desc;", cnxClient1)
         ' Récupération des données
-        sdaClient.Fill(dtClient)
+        sdaCmde.Fill(dtCmde)
         ' On affecte le jeu d'enregistrements résultat à la grille de données
-        dgvClient.DataSource = dtClient
+        dgvClient.DataSource = dtCmde
 
     End Sub
     ' Remplissage de la grille de données
@@ -55,12 +57,12 @@ Public Class frmClient
         ' Jeu d'enregistrement qui contiendra le résultat de la requête
         Dim dtClient As New DataTable
         ' Adaptateur SQL : l'objet sur lequel les commandes SQL seront lancées et dont le résultat sera mis dans un "DataTable"
-        Dim sdaCmde As New MySqlDataAdapter
+        Dim sdaClient As New MySqlDataAdapter
 
         ' Exécution de la requête sur la connexion
-        sdaCmde.SelectCommand = New MySqlCommand("select * from client", cnxClient1)
+        sdaClient.SelectCommand = New MySqlCommand("select * from client", cnxClient1)
         ' Récupération des données
-        sdaCmde.Fill(dtClient)
+        sdaClient.Fill(dtClient)
         ' On affecte le jeu d'enregistrements résultat à la grille de données
         dgvClient.DataSource = dtClient
 
@@ -265,5 +267,17 @@ Public Class frmClient
         'Catch ex As Exception
         '    MsgBox(ex.Message)
         'End Try
+    End Sub
+
+    Private Sub MenuStrip1_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles MenuStrip1.ItemClicked
+
+    End Sub
+
+    Private Sub BtnAnnul_Click(sender As Object, e As EventArgs) Handles BtnAnnul.Click
+
+    End Sub
+
+    Private Sub LblNomClient_Click(sender As Object, e As EventArgs) Handles LblNomClient.Click
+
     End Sub
 End Class

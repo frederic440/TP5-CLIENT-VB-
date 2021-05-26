@@ -117,13 +117,834 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>153, 17</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TxtBxAdresseClient.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;BtnAjoutClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BtnAjoutClientProspect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 399</value>
+  </data>
+  <data name="&gt;&gt;dgvClient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnAnnul.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="LblNumeroDeClient.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TxtBxNbVisite.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;GrpBxTypeClient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblAdresseClient.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="MenuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;RdBtnPortefeuille.Parent" xml:space="preserve">
+    <value>GrpBxTypeClient</value>
+  </data>
+  <data name="&gt;&gt;BtnAjoutClientProspect.Name" xml:space="preserve">
+    <value>BtnAjoutClientProspect</value>
+  </data>
+  <data name="&gt;&gt;LblNumeroDeClient.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;TxtBxNbVisite.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bt_listClient.Parent" xml:space="preserve">
+    <value>BtnAjoutClientProspect</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="lblInfos.Text" xml:space="preserve">
+    <value>Liste des commandes de clients portefeuille</value>
+  </data>
+  <data name="cb_commande.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;TxtBxNomClient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TxtBxAdresseClient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="SupprimerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 24</value>
+  </data>
+  <data name="&gt;&gt;txtBxNumClient.Name" xml:space="preserve">
+    <value>txtBxNumClient</value>
+  </data>
+  <data name="dgvClient.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="bt_color.Text" xml:space="preserve">
+    <value>Changer la couleur</value>
+  </data>
+  <data name="BtnSuppCmde.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 23</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RdBtnProspect.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TxtBxNomClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="&gt;&gt;dgvClient.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;BtnSuppCmde.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInfos.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="LblAdresseClient.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInfos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 30</value>
+  </data>
+  <data name="&gt;&gt;GrpBxTypeClient.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;BtnAnnul.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;LblNbVisiteClient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ModifierToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaisirUneNouvelleCmdToolStripMenuItem.Name" xml:space="preserve">
+    <value>SaisirUneNouvelleCmdToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;SupprimerToolStripMenuItem.Name" xml:space="preserve">
+    <value>SupprimerToolStripMenuItem</value>
+  </data>
+  <data name="BtnAnnuler.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="bt_listClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>80, 22</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Clients v1.21</value>
+  </data>
+  <data name="BtnAjoutClientProspect.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;RdBtnPortefeuille.Name" xml:space="preserve">
+    <value>RdBtnPortefeuille</value>
+  </data>
+  <data name="&gt;&gt;bt_listCommande.Parent" xml:space="preserve">
+    <value>BtnAjoutClientProspect</value>
+  </data>
+  <data name="BtnCreerClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 38</value>
+  </data>
+  <data name="&gt;&gt;Guna2AnimateWindow1.Name" xml:space="preserve">
+    <value>Guna2AnimateWindow1</value>
+  </data>
+  <data name="BtnAnnul.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1067, 475</value>
+  </data>
+  <data name="LblNomClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 17</value>
+  </data>
+  <data name="LblNumeroDeClient.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BtnSuppCmde.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;BtnAnnuler.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnAjoutClientProspect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="dgvClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 64</value>
+  </data>
+  <data name="lblInfos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 12pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;BtnSuppCmde.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SupprimerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="&gt;&gt;cb_commande.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtBxNumClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 181</value>
+  </data>
+  <data name="BtnAjoutClient.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAAAAEAIACoEAAAJgAAABAQAAABACAAaAQAAM4QAAAoAAAAIAAAAEAAAAABACAAAAAAAAAQ
+        AAAAAAAAAAAAAAAAAAAAAAAA////AP///wD///8A////AP///wD///8A////AP///wD///8A9vb2Muvr
+        6nHu7u1k9vb2GP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AOfm
+        5oy5t9H9fnrN/5WS2//j4ujt8fHxQ////wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wDw7+9MsbXK/S8wuP8iHcH/Ix3R/1RO4v/t7e7j+Pj4Cv///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AN7d3Jt0gb7/Jiax/yEcu/8jHcv/Ix3b/7i16//y8vJX////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A3dvbm3F+uv8uM7D/IRy2/yIdxP8jHdX/aWTl/+/v77j9/f0A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wDr6+pTmqC//z5LtP8gHLH/Ih2+/yMdzv8qI9//4eDu+vX1
+        9SH///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP39/QbGxcfqUGO3/yUkrv8hHLn/Ih3I/zEv
+        3P+Ylen/8PDwfv///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AN/e3Y59iLv/NDyx/yEc
+        tP8iHcL/KibU/0pE4//v7+/c+fn5Bf///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A9PTzLa2w
+        wf1EVbX/IByv/yIdvP8jHcz/JB3c/8jG7f/08/NE////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A0tDQyWBwuP9CS7r/JCG4/yIdxv8jHdb/eXTm/+/v76b///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wDn5uZnkZi9/0pauv81OLv/MjLG/yMd0P8xKuD/6eju8/f39xT///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////APv7+w+/v8X1S122/15wyP9VYs7/Ih3J/yMd2v+oper/8fHxa///
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////ANrZ2KFzf7r/NDuy/yMftv8iHcP/Ix3T/1lU
+        5P/v7+/J+/v7A////wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A8O/vP6SowP9BULT/IByw/yId
+        vf9NV9n/JiDe/9bV7v309PQx////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD+/v4AzcvM21do
+        t/8oKK//IRy4/yQfx/8jHdf/iITo//Dw8JP///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wDj4uF7h5C8/0dVuf8lIrX/Ih3B/yMd0f88NuH/7e3v6fj4+Ar///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////APj4+BzAwMT6Xmy5/yEerv8hHbv/Ix3L/yMd2/+4tev/8vLyV////wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////ANbV1LXFxMj/b265/zEtuP8iHcT/Ix3V/2lk5f/v7++4/f39AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A6+vqVMrIx//Mysn/x8XF/7e1zf94dNT/Liff/+Hg
+        7vr19fUh////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD9/f0Gy8nI6s7My//GxMP/zszL/9fW
+        1f+zsN7/paLp//Dw8H7///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wDf3t2Oy8nI/8rH
+        xv/KyMf/1NLR/93c2//c2+b/7+/v2/r6+gb///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////APT0
+        8y3Jx8b9zcvK/8bEw//Qzs3/2tjX/+Tj4v/u7u399PPzRP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////ANLQ0MnNy8r/x8XE/8zKyf/W1NP/4N/e/+rp6f/v7++m////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A5+bmZ8rIx//Lycj/ycbF/9LR0P/c29r/5uXk/+/v7vP39/cU////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD7+/sPysjH9c7My//GxMP/zs3M/9jX1v/i4eD/7ezr//Hx
+        8Wv///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wDa2dihzMrJ/8nHxv/Lycj/1NPS/97d
+        3P/p6Of/7+/vyfv7+wP///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////APDv7z/Jx8b/zcvK/8fF
+        xP/Rz87/2tnY/+Tj4//v7+799PT0Mv///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A/v7+AM7M
+        y9zOzMv/x8XD/83Lyv/X1dT/4N/e/+vq6v/x8fDH+Pj4D////wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A4+Lhe8rIx//CwL//ycfG/9LR0P/Av77/rq6u/+zs6//19fWS////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD29fUlvLq4/7q4tv+Lion/SktK/zM0NP9wcXD/7Ozryf39/Rr///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////APj4+Biwrav/dHNz/0dISP9vb2/9uLe22vLx8WX+/v4D////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A+Pj4EcXDwq7Lyciv3tzcg/Lx8Tr+/v4A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP//////B////wP///4D///+Af///wH///8B
+        ////AP///4D///+Af///wH///8B////AP///4D///+Af///wH///8B////AP///4D///+A////gH///8
+        B////AP///4D///+A////gH///8B////AP///4B///+A////g////4//KAAAABAAAAAgAAAAAQAgAAAA
+        AAAABAAAAAAAAAAAAAAAAAAAAAAAAP///wD///8A////AP///wDl5etvu7ngtfLy9FL///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wDz8vI4XmO8/SIcxv+Gg+X4+vr6GP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A8fHwOl5nt/8hHLr/NjDa//Dw
+        83X///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP7+/gCco8XdJyaz/ygk
+        zv+wrurW/f39AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A3d3hfUFL
+        tf8jHsH/Yl3h//j4+Dr///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A////APj3
+        9x15grz8R0/G/yYg1f/e3fCc////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8AuLzQuC4xs/8tK8v/kY7n8Pv7+wz///8A////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AOvr6lZTXbf/Ix+9/0M93P/19PVi////AP///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD9/f0HrrDG6jk1t/8jHdD/wL7swv///wD///8A////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AN/e3pHKyMf/tbPQ/5mW5f35+fko////AP///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD09PQvy8nI/c3Lyv/e3N//8/Lyif///wD///8A////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////ANTS0srKyMf/2djX/+vr6+X8/PwF////AP//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wDn5uZpysjH/9HQz//l5OT/9/f2Tf//
+        /wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A+/v7D8zKyfbLycj/3dzb//Dv
+        7739/f0D////AP///wD///8A////AP///wD///8A////AP///wD///8A////AP///wDX1dWntLKx/4SE
+        g/+9vb3w/Pz8K////wD///8A////AP///wD///8A////AP///wD///8A////AP///wD///8A2dfXdZmY
+        l8vGxcSF+/v7Gf///wD///8A////AP///wD7/wAA8f8AAPH/AADw/wAA+P8AAPh/AAD4fwAA/H8AAPw/
+        AAD8PwAA/h8AAP4fAAD/HwAA/w8AAP8PAAD/nwAA
+</value>
+  </data>
+  <data name="TxtBxNbVisite.Location" type="System.Drawing.Point, System.Drawing">
+    <value>971, 255</value>
+  </data>
+  <data name="bt_listCommande.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblNomClient.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="ModifierToolStripMenuItem.Text" xml:space="preserve">
+    <value>Modifier</value>
+  </data>
+  <data name="&gt;&gt;TxtBxNomClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpBxTypeClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 123</value>
+  </data>
+  <data name="&gt;&gt;lblInfos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bt_color.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BtnCreerClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnAjoutClientProspect.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblNumeroDeClient.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;RdBtnProspect.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BtnAjoutClientProspect.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;cb_commande.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblNumeroDeClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblNumeroDeClient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="RdBtnProspect.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BtnAnnuler.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnCreerClient.Text" xml:space="preserve">
+    <value>Créer le client</value>
+  </data>
+  <data name="&gt;&gt;SaisirUneNouvelleCmdToolStripMenuItem1.Name" xml:space="preserve">
+    <value>SaisirUneNouvelleCmdToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;BtnAnnul.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuStrip1.Name" xml:space="preserve">
+    <value>ContextMenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;BtnAnnuler.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="BtnAjoutClientProspect.Text" xml:space="preserve">
+    <value>GroupBox1</value>
+  </data>
+  <data name="LblNumeroDeClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 17</value>
+  </data>
+  <data name="TxtBxAdresseClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="GrpBxTypeClient.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="AfficherListeCmdToolStripMenuItem.Text" xml:space="preserve">
+    <value>Afficher liste cmd</value>
+  </data>
+  <data name="&gt;&gt;SaisirUneNouvelleCmdToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblNumeroDeClient.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;BtnCreerClient.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;Guna2AnimateWindow1.Type" xml:space="preserve">
+    <value>Guna.UI2.WinForms.Guna2AnimateWindow, Guna.UI2, Version=2.0.1.4, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtBxNumClient.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;BtnAjoutClient.Name" xml:space="preserve">
+    <value>BtnAjoutClient</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip1.Name" xml:space="preserve">
+    <value>MenuStrip1</value>
+  </data>
+  <data name="&gt;&gt;LblNbVisiteClient.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="bt_listClient.Text" xml:space="preserve">
+    <value>Liste des clients</value>
+  </data>
+  <data name="BtnCreerClient.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmClient</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1355, 791</value>
+  </data>
+  <data name="&gt;&gt;TxtBxNbVisite.Name" xml:space="preserve">
+    <value>TxtBxNbVisite</value>
+  </data>
+  <data name="BtnAjoutClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>920, 475</value>
+  </data>
+  <data name="SaisirUneNouvelleCmdToolStripMenuItem.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="txtBxNumClient.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;txtBxNumClient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bt_listCommande.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1355, 28</value>
+  </data>
+  <data name="&gt;&gt;txtBxNumClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;bt_color.Name" xml:space="preserve">
+    <value>bt_color</value>
+  </data>
+  <data name="&gt;&gt;LblAdresseClient.Name" xml:space="preserve">
+    <value>LblAdresseClient</value>
+  </data>
+  <data name="BtnAnnuler.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BtnAjoutClientProspect.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;cb_commande.Name" xml:space="preserve">
+    <value>cb_commande</value>
+  </data>
+  <data name="GrpBxTypeClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>920, 318</value>
+  </data>
+  <data name="bt_listCommande.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 51</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="bt_listClient.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;AfficherListeCmdToolStripMenuItem.Name" xml:space="preserve">
+    <value>AfficherListeCmdToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;BtnAnnul.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnSuppCmde.Name" xml:space="preserve">
+    <value>BtnSuppCmde</value>
+  </data>
+  <data name="RdBtnPortefeuille.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip1.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;dgvClient.Name" xml:space="preserve">
+    <value>dgvClient</value>
+  </data>
+  <data name="BtnCreerClient.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;TxtBxAdresseClient.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="LblNomClient.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnAjoutClient.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="LblAdresseClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>840, 202</value>
+  </data>
+  <data name="AfficherListeCmdToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 26</value>
+  </data>
+  <data name="BtnAnnuler.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="SaisirUneNouvelleCmdToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 24</value>
+  </data>
+  <data name="&gt;&gt;ModifierToolStripMenuItem.Name" xml:space="preserve">
+    <value>ModifierToolStripMenuItem</value>
+  </data>
+  <data name="BtnAnnuler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 252</value>
+  </data>
+  <data name="&gt;&gt;LblNumeroDeClient.Name" xml:space="preserve">
+    <value>LblNumeroDeClient</value>
+  </data>
+  <data name="&gt;&gt;bt_color.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblAdresseClient.Text" xml:space="preserve">
+    <value>Adresse client : </value>
+  </data>
+  <data name="&gt;&gt;BtnAjoutClientProspect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblAdresseClient.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LblNomClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>863, 144</value>
+  </data>
+  <data name="&gt;&gt;LblAdresseClient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;bt_listClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAnnuler.Name" xml:space="preserve">
+    <value>BtnAnnuler</value>
+  </data>
+  <data name="BtnAnnuler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 38</value>
+  </data>
+  <data name="&gt;&gt;AfficherListeCmdToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ModifierToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 24</value>
+  </data>
+  <data name="&gt;&gt;LblAdresseClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MenuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblNumeroDeClient.Text" xml:space="preserve">
+    <value>Numero de client :</value>
+  </data>
+  <data name="&gt;&gt;BtnAnnul.Name" xml:space="preserve">
+    <value>BtnAnnul</value>
+  </data>
+  <data name="RdBtnPortefeuille.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BtnAnnul.Text" xml:space="preserve">
+    <value>Annuler</value>
+  </data>
+  <data name="&gt;&gt;bt_listClient.Name" xml:space="preserve">
+    <value>bt_listClient</value>
+  </data>
+  <data name="&gt;&gt;bt_listClient.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="txtBxNumClient.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cb_commande.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LblNbVisiteClient.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="RdBtnProspect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 21</value>
+  </data>
+  <data name="&gt;&gt;LblNomClient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblInfos.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BtnSuppCmde.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MenuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TxtBxNomClient.Name" xml:space="preserve">
+    <value>TxtBxNomClient</value>
+  </data>
+  <data name="LblAdresseClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
+  </data>
+  <data name="BtnAjoutClientProspect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>268, 99</value>
+  </data>
+  <data name="&gt;&gt;TxtBxAdresseClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpBxTypeClient.Name" xml:space="preserve">
+    <value>GrpBxTypeClient</value>
+  </data>
+  <data name="&gt;&gt;LblNomClient.Name" xml:space="preserve">
+    <value>LblNomClient</value>
+  </data>
+  <data name="bt_color.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 23</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblInfos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>504, 25</value>
+  </data>
+  <data name="&gt;&gt;bt_listCommande.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bt_color.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;LblNbVisiteClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RdBtnPortefeuille.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dgvClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>702, 329</value>
+  </data>
+  <data name="TxtBxNomClient.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="LblNumeroDeClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 185</value>
+  </data>
+  <data name="&gt;&gt;BtnCreerClient.Name" xml:space="preserve">
+    <value>BtnCreerClient</value>
+  </data>
+  <data name="bt_listClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 23</value>
+  </data>
+  <data name="&gt;&gt;RdBtnProspect.Parent" xml:space="preserve">
+    <value>GrpBxTypeClient</value>
+  </data>
+  <data name="&gt;&gt;LblNomClient.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BtnSuppCmde.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 437</value>
+  </data>
+  <data name="RdBtnPortefeuille.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 81</value>
+  </data>
+  <data name="&gt;&gt;RdBtnProspect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ContextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBxNomClient.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="TxtBxNbVisite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 22</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="&gt;&gt;SaisirUneNouvelleCmdToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblNomClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnCreerClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 252</value>
+  </data>
+  <data name="LblNbVisiteClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>840, 258</value>
+  </data>
+  <data name="&gt;&gt;BtnAjoutClient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnCreerClient.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="cb_commande.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 24</value>
+  </data>
+  <data name="&gt;&gt;TxtBxAdresseClient.Name" xml:space="preserve">
+    <value>TxtBxAdresseClient</value>
+  </data>
+  <data name="LblNbVisiteClient.Text" xml:space="preserve">
+    <value>Nombre visite : </value>
+  </data>
+  <data name="SaisirUneNouvelleCmdToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 26</value>
+  </data>
+  <data name="bt_listCommande.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 23</value>
+  </data>
+  <data name="&gt;&gt;lblInfos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtBxNumClient.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dgvClient.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="cb_commande.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 437</value>
+  </data>
+  <data name="&gt;&gt;dgvClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bt_listCommande.Text" xml:space="preserve">
+    <value>Liste des commandes</value>
+  </data>
+  <data name="txtBxNumClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 22</value>
+  </data>
+  <data name="lblInfos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RdBtnPortefeuille.Text" xml:space="preserve">
+    <value>Portefeuille</value>
+  </data>
+  <data name="ContextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 52</value>
+  </data>
+  <data name="dgvClient.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;bt_listCommande.Name" xml:space="preserve">
+    <value>bt_listCommande</value>
+  </data>
+  <data name="RdBtnProspect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 39</value>
+  </data>
+  <data name="&gt;&gt;RdBtnPortefeuille.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RdBtnProspect.Name" xml:space="preserve">
+    <value>RdBtnProspect</value>
+  </data>
+  <data name="&gt;&gt;LblNbVisiteClient.Name" xml:space="preserve">
+    <value>LblNbVisiteClient</value>
+  </data>
+  <data name="LblNomClient.Text" xml:space="preserve">
+    <value>Nom client : </value>
+  </data>
+  <data name="LblNbVisiteClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 17</value>
+  </data>
+  <data name="&gt;&gt;SupprimerToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnAnnul.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="RdBtnProspect.Text" xml:space="preserve">
+    <value>Prospect</value>
+  </data>
+  <data name="BtnAjoutClient.Text" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="TxtBxNomClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>971, 144</value>
+  </data>
+  <data name="TxtBxAdresseClient.Location" type="System.Drawing.Point, System.Drawing">
+    <value>971, 199</value>
+  </data>
+  <data name="SaisirUneNouvelleCmdToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Saisir une nouvelle cmd</value>
+  </data>
+  <data name="GrpBxTypeClient.Text" xml:space="preserve">
+    <value>Type de client</value>
+  </data>
+  <data name="bt_color.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 494</value>
+  </data>
+  <data name="BtnAjoutClient.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="MenuStrip1.Text" xml:space="preserve">
+    <value>MenuStrip1</value>
+  </data>
+  <data name="RdBtnPortefeuille.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 21</value>
+  </data>
+  <data name="TxtBxNbVisite.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;bt_color.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpBxTypeClient.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBxNbVisite.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnAnnuler.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;BtnCreerClient.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblNbVisiteClient.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblInfos.Name" xml:space="preserve">
+    <value>lblInfos</value>
+  </data>
+  <data name="BtnSuppCmde.Text" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr-RE</value>
+  </metadata>
+  <metadata name="Guna2AnimateWindow1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>342, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
   <metadata name="MenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>67</value>
+    <value>35</value>
+  </metadata>
+  <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>153, 17</value>
   </metadata>
 </root>

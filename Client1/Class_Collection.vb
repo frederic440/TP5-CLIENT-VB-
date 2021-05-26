@@ -16,8 +16,8 @@ Public Class Class_Collection
             Dim Cmde As New Commande()
             Cmde.set_NumCmde(unNumCmde)
             Cmde.set_DateCmde(UneDateCmde)
-            Cmde.set_NumClient(UnClient)
-            commandes.Add(Cmde)
+        Cmde.set_NumClient(UnClient)
+        commandes.Add(Cmde)
 
         End Function
         'Private lesClientsProspects As Collection = New Collection
@@ -76,7 +76,7 @@ Public Class Class_Collection
         ' Chaîne de connexion à la base de donnéees
         Dim ChaineConnexion As String
         ChaineConnexion = "server=localhost;user=root;database=tp5_client1;port=3306;password='';"
-        'ChaineConnexion = "server=172.18.153.50;user=user;database=bdd_client1;password='12-Soleil&';"
+        'ChaineConnexion = "server=172.18.153.50;user=fred;database=bdd_client1;password='12-Soleil&';"
         ' Création de la connexion
         cnxClient1 = New MySqlConnection(ChaineConnexion)
 

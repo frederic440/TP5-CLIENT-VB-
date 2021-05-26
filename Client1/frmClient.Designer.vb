@@ -23,6 +23,7 @@ Partial Class frmClient
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmClient))
         Me.dgvClient = New System.Windows.Forms.DataGridView()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.SupprimerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -53,6 +54,7 @@ Partial Class frmClient
         Me.cb_commande = New System.Windows.Forms.ComboBox()
         Me.BtnSuppCmde = New System.Windows.Forms.Button()
         Me.bt_color = New System.Windows.Forms.Button()
+        Me.Guna2AnimateWindow1 = New Guna.UI2.WinForms.Guna2AnimateWindow(Me.components)
         CType(Me.dgvClient, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
@@ -62,277 +64,208 @@ Partial Class frmClient
         '
         'dgvClient
         '
+        resources.ApplyResources(Me.dgvClient, "dgvClient")
+        Me.dgvClient.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
         Me.dgvClient.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgvClient.ContextMenuStrip = Me.ContextMenuStrip1
-        Me.dgvClient.Location = New System.Drawing.Point(15, 64)
-        Me.dgvClient.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.dgvClient.GridColor = System.Drawing.SystemColors.ButtonHighlight
         Me.dgvClient.Name = "dgvClient"
-        Me.dgvClient.RowHeadersWidth = 51
         Me.dgvClient.RowTemplate.Height = 24
-        Me.dgvClient.Size = New System.Drawing.Size(665, 329)
-        Me.dgvClient.TabIndex = 0
         '
         'ContextMenuStrip1
         '
+        resources.ApplyResources(Me.ContextMenuStrip1, "ContextMenuStrip1")
         Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SupprimerToolStripMenuItem, Me.ModifierToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(148, 52)
         '
         'SupprimerToolStripMenuItem
         '
+        resources.ApplyResources(Me.SupprimerToolStripMenuItem, "SupprimerToolStripMenuItem")
         Me.SupprimerToolStripMenuItem.Name = "SupprimerToolStripMenuItem"
-        Me.SupprimerToolStripMenuItem.Size = New System.Drawing.Size(147, 24)
-        Me.SupprimerToolStripMenuItem.Text = "Supprimer"
         '
         'ModifierToolStripMenuItem
         '
+        resources.ApplyResources(Me.ModifierToolStripMenuItem, "ModifierToolStripMenuItem")
         Me.ModifierToolStripMenuItem.Name = "ModifierToolStripMenuItem"
-        Me.ModifierToolStripMenuItem.Size = New System.Drawing.Size(147, 24)
-        Me.ModifierToolStripMenuItem.Text = "Modifier"
         '
         'lblInfos
         '
-        Me.lblInfos.AutoSize = True
-        Me.lblInfos.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblInfos.Location = New System.Drawing.Point(89, 30)
+        resources.ApplyResources(Me.lblInfos, "lblInfos")
         Me.lblInfos.Name = "lblInfos"
-        Me.lblInfos.Size = New System.Drawing.Size(504, 25)
-        Me.lblInfos.TabIndex = 1
-        Me.lblInfos.Text = "Liste des commandes de clients portefeuille"
         '
         'MenuStrip1
         '
+        resources.ApplyResources(Me.MenuStrip1, "MenuStrip1")
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SaisirUneNouvelleCmdToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1355, 28)
-        Me.MenuStrip1.TabIndex = 2
-        Me.MenuStrip1.Text = "MenuStrip1"
         '
         'SaisirUneNouvelleCmdToolStripMenuItem
         '
+        resources.ApplyResources(Me.SaisirUneNouvelleCmdToolStripMenuItem, "SaisirUneNouvelleCmdToolStripMenuItem")
         Me.SaisirUneNouvelleCmdToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AfficherListeCmdToolStripMenuItem, Me.SaisirUneNouvelleCmdToolStripMenuItem1})
         Me.SaisirUneNouvelleCmdToolStripMenuItem.Name = "SaisirUneNouvelleCmdToolStripMenuItem"
-        Me.SaisirUneNouvelleCmdToolStripMenuItem.Size = New System.Drawing.Size(60, 24)
-        Me.SaisirUneNouvelleCmdToolStripMenuItem.Text = "Menu"
         '
         'AfficherListeCmdToolStripMenuItem
         '
+        resources.ApplyResources(Me.AfficherListeCmdToolStripMenuItem, "AfficherListeCmdToolStripMenuItem")
         Me.AfficherListeCmdToolStripMenuItem.Name = "AfficherListeCmdToolStripMenuItem"
-        Me.AfficherListeCmdToolStripMenuItem.Size = New System.Drawing.Size(248, 26)
-        Me.AfficherListeCmdToolStripMenuItem.Text = "Afficher liste cmd"
         '
         'SaisirUneNouvelleCmdToolStripMenuItem1
         '
+        resources.ApplyResources(Me.SaisirUneNouvelleCmdToolStripMenuItem1, "SaisirUneNouvelleCmdToolStripMenuItem1")
         Me.SaisirUneNouvelleCmdToolStripMenuItem1.Name = "SaisirUneNouvelleCmdToolStripMenuItem1"
-        Me.SaisirUneNouvelleCmdToolStripMenuItem1.Size = New System.Drawing.Size(248, 26)
-        Me.SaisirUneNouvelleCmdToolStripMenuItem1.Text = "Saisir une nouvelle cmd"
         '
         'LblNumeroDeClient
         '
-        Me.LblNumeroDeClient.AutoSize = True
-        Me.LblNumeroDeClient.Location = New System.Drawing.Point(43, 185)
-        Me.LblNumeroDeClient.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        resources.ApplyResources(Me.LblNumeroDeClient, "LblNumeroDeClient")
         Me.LblNumeroDeClient.Name = "LblNumeroDeClient"
-        Me.LblNumeroDeClient.Size = New System.Drawing.Size(123, 17)
-        Me.LblNumeroDeClient.TabIndex = 3
-        Me.LblNumeroDeClient.Text = "Numero de client :"
-        Me.LblNumeroDeClient.Visible = False
         '
         'txtBxNumClient
         '
-        Me.txtBxNumClient.Location = New System.Drawing.Point(237, 181)
-        Me.txtBxNumClient.Margin = New System.Windows.Forms.Padding(4)
+        resources.ApplyResources(Me.txtBxNumClient, "txtBxNumClient")
         Me.txtBxNumClient.Name = "txtBxNumClient"
-        Me.txtBxNumClient.Size = New System.Drawing.Size(316, 22)
-        Me.txtBxNumClient.TabIndex = 4
-        Me.txtBxNumClient.Visible = False
         '
         'BtnCreerClient
         '
-        Me.BtnCreerClient.Location = New System.Drawing.Point(237, 252)
-        Me.BtnCreerClient.Margin = New System.Windows.Forms.Padding(4)
+        resources.ApplyResources(Me.BtnCreerClient, "BtnCreerClient")
+        Me.BtnCreerClient.BackColor = System.Drawing.Color.White
+        Me.BtnCreerClient.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.BtnCreerClient.Name = "BtnCreerClient"
-        Me.BtnCreerClient.Size = New System.Drawing.Size(121, 38)
-        Me.BtnCreerClient.TabIndex = 5
-        Me.BtnCreerClient.Text = "Créer le client"
-        Me.BtnCreerClient.UseVisualStyleBackColor = True
-        Me.BtnCreerClient.Visible = False
+        Me.BtnCreerClient.UseVisualStyleBackColor = False
         '
         'BtnAnnuler
         '
-        Me.BtnAnnuler.Location = New System.Drawing.Point(433, 252)
-        Me.BtnAnnuler.Margin = New System.Windows.Forms.Padding(4)
+        resources.ApplyResources(Me.BtnAnnuler, "BtnAnnuler")
+        Me.BtnAnnuler.BackColor = System.Drawing.Color.White
+        Me.BtnAnnuler.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.BtnAnnuler.Name = "BtnAnnuler"
-        Me.BtnAnnuler.Size = New System.Drawing.Size(121, 38)
-        Me.BtnAnnuler.TabIndex = 6
-        Me.BtnAnnuler.Text = "Annuler"
-        Me.BtnAnnuler.UseVisualStyleBackColor = True
-        Me.BtnAnnuler.Visible = False
+        Me.BtnAnnuler.UseVisualStyleBackColor = False
         '
         'BtnAjoutClientProspect
         '
+        resources.ApplyResources(Me.BtnAjoutClientProspect, "BtnAjoutClientProspect")
         Me.BtnAjoutClientProspect.Controls.Add(Me.bt_listCommande)
         Me.BtnAjoutClientProspect.Controls.Add(Me.bt_listClient)
-        Me.BtnAjoutClientProspect.Location = New System.Drawing.Point(15, 399)
-        Me.BtnAjoutClientProspect.Margin = New System.Windows.Forms.Padding(4)
         Me.BtnAjoutClientProspect.Name = "BtnAjoutClientProspect"
-        Me.BtnAjoutClientProspect.Padding = New System.Windows.Forms.Padding(4)
-        Me.BtnAjoutClientProspect.Size = New System.Drawing.Size(268, 99)
-        Me.BtnAjoutClientProspect.TabIndex = 7
         Me.BtnAjoutClientProspect.TabStop = False
-        Me.BtnAjoutClientProspect.Text = "GroupBox1"
         '
         'bt_listCommande
         '
-        Me.bt_listCommande.Location = New System.Drawing.Point(57, 51)
+        resources.ApplyResources(Me.bt_listCommande, "bt_listCommande")
+        Me.bt_listCommande.BackColor = System.Drawing.Color.White
+        Me.bt_listCommande.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.bt_listCommande.Name = "bt_listCommande"
-        Me.bt_listCommande.Size = New System.Drawing.Size(189, 23)
-        Me.bt_listCommande.TabIndex = 2
-        Me.bt_listCommande.Text = "Liste des commandes"
-        Me.bt_listCommande.UseVisualStyleBackColor = True
+        Me.bt_listCommande.UseVisualStyleBackColor = False
         '
         'bt_listClient
         '
-        Me.bt_listClient.Location = New System.Drawing.Point(80, 22)
+        resources.ApplyResources(Me.bt_listClient, "bt_listClient")
+        Me.bt_listClient.BackColor = System.Drawing.Color.White
+        Me.bt_listClient.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.bt_listClient.Name = "bt_listClient"
-        Me.bt_listClient.Size = New System.Drawing.Size(138, 23)
-        Me.bt_listClient.TabIndex = 1
-        Me.bt_listClient.Text = "Liste des clients"
-        Me.bt_listClient.UseVisualStyleBackColor = True
+        Me.bt_listClient.UseVisualStyleBackColor = False
         '
         'GrpBxTypeClient
         '
+        resources.ApplyResources(Me.GrpBxTypeClient, "GrpBxTypeClient")
         Me.GrpBxTypeClient.Controls.Add(Me.RdBtnPortefeuille)
         Me.GrpBxTypeClient.Controls.Add(Me.RdBtnProspect)
-        Me.GrpBxTypeClient.Location = New System.Drawing.Point(920, 318)
         Me.GrpBxTypeClient.Name = "GrpBxTypeClient"
-        Me.GrpBxTypeClient.Size = New System.Drawing.Size(254, 123)
-        Me.GrpBxTypeClient.TabIndex = 14
         Me.GrpBxTypeClient.TabStop = False
-        Me.GrpBxTypeClient.Text = "Type de client"
         '
         'RdBtnPortefeuille
         '
-        Me.RdBtnPortefeuille.AutoSize = True
-        Me.RdBtnPortefeuille.Location = New System.Drawing.Point(35, 81)
+        resources.ApplyResources(Me.RdBtnPortefeuille, "RdBtnPortefeuille")
         Me.RdBtnPortefeuille.Name = "RdBtnPortefeuille"
-        Me.RdBtnPortefeuille.Size = New System.Drawing.Size(100, 21)
-        Me.RdBtnPortefeuille.TabIndex = 2
         Me.RdBtnPortefeuille.TabStop = True
-        Me.RdBtnPortefeuille.Text = "Portefeuille"
         Me.RdBtnPortefeuille.UseVisualStyleBackColor = True
         '
         'RdBtnProspect
         '
-        Me.RdBtnProspect.AutoSize = True
-        Me.RdBtnProspect.Location = New System.Drawing.Point(35, 39)
+        resources.ApplyResources(Me.RdBtnProspect, "RdBtnProspect")
         Me.RdBtnProspect.Name = "RdBtnProspect"
-        Me.RdBtnProspect.Size = New System.Drawing.Size(85, 21)
-        Me.RdBtnProspect.TabIndex = 1
         Me.RdBtnProspect.TabStop = True
-        Me.RdBtnProspect.Text = "Prospect"
         Me.RdBtnProspect.UseVisualStyleBackColor = True
         '
         'BtnAjoutClient
         '
-        Me.BtnAjoutClient.Location = New System.Drawing.Point(920, 475)
+        resources.ApplyResources(Me.BtnAjoutClient, "BtnAjoutClient")
+        Me.BtnAjoutClient.BackColor = System.Drawing.Color.White
+        Me.BtnAjoutClient.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.BtnAjoutClient.Name = "BtnAjoutClient"
-        Me.BtnAjoutClient.Size = New System.Drawing.Size(75, 23)
-        Me.BtnAjoutClient.TabIndex = 15
-        Me.BtnAjoutClient.Text = "Ajouter"
-        Me.BtnAjoutClient.UseVisualStyleBackColor = True
+        Me.BtnAjoutClient.UseVisualStyleBackColor = False
         '
         'BtnAnnul
         '
-        Me.BtnAnnul.Location = New System.Drawing.Point(1067, 475)
+        resources.ApplyResources(Me.BtnAnnul, "BtnAnnul")
+        Me.BtnAnnul.BackColor = System.Drawing.Color.White
+        Me.BtnAnnul.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.BtnAnnul.Name = "BtnAnnul"
-        Me.BtnAnnul.Size = New System.Drawing.Size(75, 23)
-        Me.BtnAnnul.TabIndex = 16
-        Me.BtnAnnul.Text = "Annuler"
-        Me.BtnAnnul.UseVisualStyleBackColor = True
+        Me.BtnAnnul.UseVisualStyleBackColor = False
         '
         'TxtBxNomClient
         '
-        Me.TxtBxNomClient.Location = New System.Drawing.Point(971, 144)
+        resources.ApplyResources(Me.TxtBxNomClient, "TxtBxNomClient")
         Me.TxtBxNomClient.Name = "TxtBxNomClient"
-        Me.TxtBxNomClient.Size = New System.Drawing.Size(242, 22)
-        Me.TxtBxNomClient.TabIndex = 17
         '
         'TxtBxAdresseClient
         '
-        Me.TxtBxAdresseClient.Location = New System.Drawing.Point(971, 199)
+        resources.ApplyResources(Me.TxtBxAdresseClient, "TxtBxAdresseClient")
         Me.TxtBxAdresseClient.Name = "TxtBxAdresseClient"
-        Me.TxtBxAdresseClient.Size = New System.Drawing.Size(242, 22)
-        Me.TxtBxAdresseClient.TabIndex = 18
         '
         'TxtBxNbVisite
         '
-        Me.TxtBxNbVisite.Location = New System.Drawing.Point(971, 255)
+        resources.ApplyResources(Me.TxtBxNbVisite, "TxtBxNbVisite")
         Me.TxtBxNbVisite.Name = "TxtBxNbVisite"
-        Me.TxtBxNbVisite.Size = New System.Drawing.Size(242, 22)
-        Me.TxtBxNbVisite.TabIndex = 19
         '
         'LblNomClient
         '
-        Me.LblNomClient.AutoSize = True
-        Me.LblNomClient.Location = New System.Drawing.Point(863, 144)
+        resources.ApplyResources(Me.LblNomClient, "LblNomClient")
         Me.LblNomClient.Name = "LblNomClient"
-        Me.LblNomClient.Size = New System.Drawing.Size(86, 17)
-        Me.LblNomClient.TabIndex = 20
-        Me.LblNomClient.Text = "Nom client : "
         '
         'LblAdresseClient
         '
-        Me.LblAdresseClient.AutoSize = True
-        Me.LblAdresseClient.Location = New System.Drawing.Point(840, 202)
+        resources.ApplyResources(Me.LblAdresseClient, "LblAdresseClient")
         Me.LblAdresseClient.Name = "LblAdresseClient"
-        Me.LblAdresseClient.Size = New System.Drawing.Size(109, 17)
-        Me.LblAdresseClient.TabIndex = 21
-        Me.LblAdresseClient.Text = "Adresse client : "
         '
         'LblNbVisiteClient
         '
-        Me.LblNbVisiteClient.AutoSize = True
-        Me.LblNbVisiteClient.Location = New System.Drawing.Point(840, 258)
+        resources.ApplyResources(Me.LblNbVisiteClient, "LblNbVisiteClient")
         Me.LblNbVisiteClient.Name = "LblNbVisiteClient"
-        Me.LblNbVisiteClient.Size = New System.Drawing.Size(106, 17)
-        Me.LblNbVisiteClient.TabIndex = 22
-        Me.LblNbVisiteClient.Text = "Nombre visite : "
         '
         'cb_commande
         '
+        resources.ApplyResources(Me.cb_commande, "cb_commande")
         Me.cb_commande.FormattingEnabled = True
-        Me.cb_commande.Location = New System.Drawing.Point(376, 437)
         Me.cb_commande.Name = "cb_commande"
-        Me.cb_commande.Size = New System.Drawing.Size(217, 24)
-        Me.cb_commande.TabIndex = 23
         '
         'BtnSuppCmde
         '
-        Me.BtnSuppCmde.Location = New System.Drawing.Point(628, 437)
+        resources.ApplyResources(Me.BtnSuppCmde, "BtnSuppCmde")
+        Me.BtnSuppCmde.BackColor = System.Drawing.Color.White
+        Me.BtnSuppCmde.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.BtnSuppCmde.Name = "BtnSuppCmde"
-        Me.BtnSuppCmde.Size = New System.Drawing.Size(114, 23)
-        Me.BtnSuppCmde.TabIndex = 24
-        Me.BtnSuppCmde.Text = "Supprimer"
-        Me.BtnSuppCmde.UseVisualStyleBackColor = True
+        Me.BtnSuppCmde.UseVisualStyleBackColor = False
         '
         'bt_color
         '
-        Me.bt_color.Location = New System.Drawing.Point(458, 494)
+        resources.ApplyResources(Me.bt_color, "bt_color")
+        Me.bt_color.BackColor = System.Drawing.Color.White
+        Me.bt_color.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.bt_color.Name = "bt_color"
-        Me.bt_color.Size = New System.Drawing.Size(211, 23)
-        Me.bt_color.TabIndex = 25
-        Me.bt_color.Text = "Changer la couleur"
-        Me.bt_color.UseVisualStyleBackColor = True
+        Me.bt_color.UseVisualStyleBackColor = False
+        '
+        'Guna2AnimateWindow1
+        '
+        Me.Guna2AnimateWindow1.TargetForm = Me
         '
         'frmClient
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1355, 791)
+        Me.BackColor = System.Drawing.Color.MediumSlateBlue
         Me.Controls.Add(Me.bt_color)
         Me.Controls.Add(Me.BtnSuppCmde)
         Me.Controls.Add(Me.cb_commande)
@@ -353,13 +286,11 @@ Partial Class frmClient
         Me.Controls.Add(Me.lblInfos)
         Me.Controls.Add(Me.dgvClient)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.MaximizeBox = False
         Me.Name = "frmClient"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Clients v1.21"
         CType(Me.dgvClient, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ContextMenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.ResumeLayout(False)
@@ -401,4 +332,5 @@ Partial Class frmClient
     Friend WithEvents cb_commande As ComboBox
     Friend WithEvents BtnSuppCmde As Button
     Friend WithEvents bt_color As Button
+    Friend WithEvents Guna2AnimateWindow1 As Guna.UI2.WinForms.Guna2AnimateWindow
 End Class
