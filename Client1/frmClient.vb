@@ -13,9 +13,17 @@ Public Class frmClient
 
     ' Object connexion à la base MySQL
     Private cnxClient1 As MySqlConnection
+    'Private repository As MaClasse
 
     ' Ouvre une connexion à base de données MySQL
+    Sub New()
 
+        ' Cet appel est requis par le concepteur.
+        InitializeComponent()
+
+        ' Ajoutez une initialisation quelconque après l'appel InitializeComponent().
+        'repository = New MaClasse()
+    End Sub
     Private Sub InitialiserConnexionBase()
         ' Chaîne de connexion à la base de donnéees
         Dim ChaineConnexion As String
@@ -253,21 +261,16 @@ Public Class frmClient
     End Sub
 
     Private Sub bt_listCommande_Click(sender As Object, e As EventArgs) Handles bt_listCommande.Click
+        'Dim maclass As New Class_Collection
         RemplirGrilleCommande()
+        'dgvClient.DataSource = repository.GetAll()
         lblInfos.Text = "Liste des commandes clients portefeuille"
     End Sub
     Private Sub BtnAjoutClient_Click(sender As Object, e As EventArgs) Handles BtnAjoutClient.Click
         AjouterClient()
     End Sub
 
-    Private Sub bt_color_Click(sender As Object, e As EventArgs) Handles bt_color.Click
-        'Dim maclass As New Class_Collection
-        'Try
-        '    maclass.cc()
-        'Catch ex As Exception
-        '    MsgBox(ex.Message)
-        'End Try
-    End Sub
+
 
     Private Sub MenuStrip1_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles MenuStrip1.ItemClicked
 
@@ -278,6 +281,20 @@ Public Class frmClient
     End Sub
 
     Private Sub LblNomClient_Click(sender As Object, e As EventArgs) Handles LblNomClient.Click
+
+    End Sub
+
+    Private Sub dgvClient_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgvClient.CellContentClick
+
+    End Sub
+
+    Private Sub bt_CmdeCliExist_Click(sender As Object, e As EventArgs) Handles bt_CmdeCliExist.Click
+        AjouteCmde.Show()
+
+
+    End Sub
+
+    Private Sub BtnAjoutClientProspect_Enter(sender As Object, e As EventArgs) Handles BtnAjoutClientProspect.Enter
 
     End Sub
 End Class

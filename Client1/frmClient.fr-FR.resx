@@ -118,60 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblInfos.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
-  </data>
-  <data name="lblInfos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 37</value>
-  </data>
-  <data name="lblInfos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>431, 25</value>
-  </data>
-  <data name="bt_listCommande.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 76</value>
-  </data>
-  <data name="bt_listCommande.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 40</value>
-  </data>
-  <data name="bt_listClient.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 27</value>
-  </data>
-  <data name="bt_listClient.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 40</value>
-  </data>
-  <data name="BtnAjoutClientProspect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>268, 123</value>
-  </data>
-  <data name="BtnAjoutClientProspect.Text" xml:space="preserve">
-    <value>ACTION SUR LA LISTE</value>
-  </data>
-  <data name="BtnAjoutClient.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 32</value>
-  </data>
-  <data name="BtnAnnul.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 32</value>
-  </data>
-  <data name="LblAdresseClient.Location" type="System.Drawing.Point, System.Drawing">
-    <value>840, 199</value>
-  </data>
-  <data name="cb_commande.Location" type="System.Drawing.Point, System.Drawing">
-    <value>377, 435</value>
-  </data>
-  <data name="BtnSuppCmde.Location" type="System.Drawing.Point, System.Drawing">
-    <value>627, 426</value>
-  </data>
-  <data name="BtnSuppCmde.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 40</value>
-  </data>
-  <data name="bt_color.Location" type="System.Drawing.Point, System.Drawing">
-    <value>452, 475</value>
-  </data>
-  <data name="bt_color.Size" type="System.Drawing.Size, System.Drawing">
-    <value>211, 47</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1355, 530</value>
-  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAIAICAAAAEAIACoEAAAJgAAABAQAAABACAAaAQAAM4QAAAoAAAAIAAAAEAAAAABACAAAAAAAAAQ

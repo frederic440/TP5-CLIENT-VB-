@@ -53,6 +53,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
@@ -76,7 +77,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class_Collection.vb" />
+    <Compile Include="AjouteCmde.Designer.vb">
+      <DependentUpon>AjouteCmde.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AjouteCmde.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client.vb" />
     <Compile Include="Commande.vb" />
     <Compile Include="frmClient.vb">
       <SubType>Form</SubType>
@@ -85,6 +92,8 @@
       <DependentUpon>frmClient.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="LesCommandes.vb" />
+    <Compile Include="MaClasse_Methodes.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -102,6 +111,12 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AjouteCmde.resx">
+      <DependentUpon>AjouteCmde.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClient.fr-FR.resx">
+      <DependentUpon>frmClient.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmClient.fr-RE.resx">
       <DependentUpon>frmClient.vb</DependentUpon>
     </EmbeddedResource>
@@ -123,6 +138,7 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\DataSources\Cmde.datasource" />
     <None Include="My Project\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <CustomToolNamespace>My</CustomToolNamespace>
